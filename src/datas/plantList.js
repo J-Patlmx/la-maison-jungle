@@ -7,6 +7,8 @@ import basil from '../assets/basil.jpg'
 import mint from '../assets/mint.jpg'
 import calathea from '../assets/calathea.jpg'
 import cactus from '../assets/cactus.jpg'
+import yuka from '../assets/yuka.jpg'
+
 
 export const plantList = [
     {
@@ -96,5 +98,16 @@ export const plantList = [
         water: 2,
         cover: mint,
         price: 4
+    },
+
+    {
+        name: 'yuka',
+        category: 'classique',
+        id: '9zk',
+        light: 2,
+        water: 1,
+        cover: yuka,
+
+        price: 35
     }
 ]
